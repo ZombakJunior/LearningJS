@@ -29,7 +29,8 @@ Licence URI: http://www.os-templates.com/template-terms
     <div id="topnav">
       <ul>
         <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="#">Lesson 1</a>
+        <li><a href="#Introduction">Introduction</a></li>
+        <li><a href="#lesson1-hello">Lesson 1</a>
           <ul>
             <li><a href="hello_world.html">Hello world</a></li>
           </ul>
@@ -42,19 +43,90 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ####################################################################################################### -->
 <div class="wrapper col4">
   <div id="container">
-    <div id="content">
-      <div id="lesson1-hello">
-          <h2>Lesson 1 - baby steps</h2>
-        <p>bla bla bla</p>
-      </div>
-    </div>
-    <br class="clear" />
+      <article>
+        <div id="content">
+            <div id="lesson1-hello">
+                <h2>Lesson 1 - baby steps</h2>
+                <p>
+                    First step is simple. You need versioning system. It's obvious to use 
+                    github - free, very advanced think, which can be easily described as 
+                    "facebook for programmers". So sign up to github and create new project 
+                    (name it for example LearningJS - very original, there is zilion projects 
+                    with this name, so our will be hidden). That's it.
+                </p>
+                <p>
+                    Second. We have github project. Now we need something to edit our programs. 
+                    There is a plenty of choices, I prefer to use netbeans with darcula feel 
+                    and look extension. Let's download netbeans and in team menu connect to 
+                    your new account in github. Than we can create new netbeans project. 
+                    Important! there will be a new directory public_html in which all our 
+                    files should be.
+                </p>
+                <p>
+                    Third. Now we need playground for playing with JS. This means, we need 
+                    css template for webpage in which all our sripts will run. Download 
+                    it, make it simplest as possible, edit it to suit your personal desires 
+                    and place it to the public_html directory. This will add these files 
+                    to netbeans too.
+                </p>
+                <p>
+                    And last step for today. Add hello world to the menu and create it 
+                    new page (hello_world.html). In this page create something like this :
+                </p>
+                <img src="lesson1/hello_world_html.jpg"/>
+                <p>
+                    As you can see, we added attribute id to all elements, which we are 
+                    going to change with our script. We will change topic, text in paragraph 
+                    and we will hide the button. Our script will be in function called 
+                    hello, so we add this function to the button in attribute onclick.
+                </p>
+                <p>
+                    Now we can finaly create our function.
+                </p>
+                <img src="lesson1/hello_world_js.jpg"/>
+                <p>
+                    And that's it. There is an object called document - it is our web page. 
+                    We find elements we want to change by getElementById magic (this will 
+                    be explained later) and we change content of headline and paragraph and
+                    style of button to hide it.
+                </p>
+                <p>
+                    And we are done. You can try it for your self <a href="hello_world.html">
+                    here</a>.
+                </p>
+                <p>
+                    What we have learned so far?
+                    <ul>    
+                        <li>Basic use of github</li>
+                        <li>Basic use of netbeans</li>
+                        <li>Basic html editing</li>
+                        <li>Using a css sheets</li>
+                        <li>We created our first JS function</li>
+                    </ul>
+                </p>
+            </div>
+            <div id='Introduction'>
+                <h2>Introduction</h2>
+                <p>
+                    What this is all about?
+                </p>
+                <p>
+                    It's about me and my son.
+                </p>  
+                <p>
+                    It's about learning JavaScript together.
+                </p>
+            </div>
+        </div>
+      </article>
+      <br class="clear" />
+
   </div>
   <br class="clear" />
 </div>
 <div class="wrapper col7">
   <div id="copyright">
-    <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_left"><a href="https://github.com/ZombakJunior/LearningJS">LearningJS github</a></p>
     <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
     <br class="clear" />
   </div>
